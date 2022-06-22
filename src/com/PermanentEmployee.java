@@ -3,8 +3,10 @@ package com;
 import java.util.Scanner;
 
 public class PermanentEmployee extends Employee{
-	static void employeeDetails() {
-		Scanner scan = new Scanner(System.in);
+	static void employeeDetails(int id) {
+		
+		System.out.println("PermanentEmployee method is called");
+		/*Scanner scan = new Scanner(System.in);
 		System.out.println("enter employee id");
 		int employee_id = scan.nextInt();
 		System.err.println("enter user name");
@@ -14,6 +16,6 @@ public class PermanentEmployee extends Employee{
 			output = "permanent employee method called";
 		else
 			output = "not a permanent employee";
-		System.err.println(output);
+		System.err.println(output);*/
 	}
 }
